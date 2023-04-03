@@ -37,6 +37,7 @@ typedef MenuCharacterData =
 	@:optional var scale:Array<Float>;
 	@:optional var frames:Int;
 	@:optional var looped:Bool;
+	@:optional var antial:Bool;
 }
 
 typedef MenuCharacterJSON =
@@ -131,7 +132,7 @@ class MainMenuState extends MusicBeatState
 			trace("Couldn't find that file. What a blunder!");
 		}
 
-		var twenty:Array<String> = ['together1', 'yuri', 'natsuki', 'sayori', 'pixelmonika', 'senpai'];
+		var twenty:Array<String> = ['together1', 'yuri', 'natsuki', 'sayori', 'pixelmonika', 'senpai', 'tankpai'];
 		var ten:Array<String> = ['sunnat', 'yuritabi', 'minusmonikapixel', 'yuriken', 'sayominus', 'cyrixstatic', 'zipori', 'nathaachama'];
 		var two:Array<String> = ['fumo'];
 
@@ -172,6 +173,7 @@ class MainMenuState extends MusicBeatState
 					menu_character.frames = Paths.getSparrowAtlas(char.atlas);
 					if (char.scale != null)
 						menu_character.scale.set(char.scale[0], char.scale[1]);
+					menu_character.antialiasing = (char.antial != null ? char.antial : SaveData.globalAntialiasing);
 					menu_character.animation.addByPrefix('play', char.prefix, 
 						(char.frames != null ? char.frames : 24), (char.looped != null ? char.looped : false));
 					// Break the for loop so we can move on from this lol
@@ -187,9 +189,9 @@ class MainMenuState extends MusicBeatState
 			menu_character = new FlxSprite(490, 50);
 			menu_character.frames = Paths.getSparrowAtlas("menucharacters/dokitogetheralt");
 			menu_character.scale.set(0.77, 0.77);
+			menu_character.antialiasing = SaveData.globalAntialiasing;
 			menu_character.animation.addByPrefix('play', "Doki together club", 21, false);
 		}
-		menu_character.antialiasing = SaveData.globalAntialiasing;
 		menu_character.updateHitbox();
 		menu_character.animation.play('play');
 		add(menu_character);

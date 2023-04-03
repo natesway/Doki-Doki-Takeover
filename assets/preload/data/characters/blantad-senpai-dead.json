@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				24,
+				-150
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "Senpai Dies"
+		},
+		{
+			"offsets": [
+				24,
+				-150
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "senpai retry"
+		},
+		{
+			"offsets": [
+				24,
+				-150
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "RETRY CONFIRM"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/blantad-senpai-DEAD",
+	"position": [
+		-50,
+		-230
+	],
+	"healthicon": "senpai",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		170,
+		111
+	],
+	"camera_position": [
+		-240,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 6,
+	"gameover_character": "blantad-senpai-dead",
+	"death_sound": "fnf_loss_sfx-senpai"
+}

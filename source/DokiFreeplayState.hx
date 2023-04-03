@@ -753,10 +753,10 @@ class DokiFreeplayState extends MusicBeatState
 		}
 		else
 		{
-			if (curPage >= 5)
+			if (curPage >= 6)
 				curPage = 0;
 			if (curPage < 0)
-				curPage = 5 - 1;
+				curPage = 6 - 1;
 		}
 		// updating page stuff here
 	}

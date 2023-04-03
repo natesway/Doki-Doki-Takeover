@@ -174,7 +174,16 @@
             "prefix": "Sayo Impostor Menu",
             "scale": [0.8, 0.8],
             "looped": true
+        },
+        {
+            "name": "tankpai",
+            "spritePos": [600, 142],
+            "atlas": "menucharacters/tankman_n_senpai",
+            "prefix": "Tankpai Menu",
+            "scale": [6, 6],
+            "frames": 12,
+            "looped": true,
+			"antial": false
         }
-
     ]
 }

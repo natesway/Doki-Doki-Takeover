@@ -30,7 +30,9 @@ class HealthIcon extends FlxSprite
 		'pen-pixel',
 		'pen-demise',
 		'jill',
-		'shaker'
+		'shaker',
+		'blantad-senpai',
+		'st-duet'
 	];
 
 	public function new(?char:String = 'bf', ?isPlayer:Bool = false, ?isHealth:Bool = true)

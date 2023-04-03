@@ -1,0 +1,62 @@
+{
+	"startingMusic": "",
+	"initStyle": "pixel",
+	"dialogue": 
+	[
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "What the hell?",
+			"key": "bnyEnd1",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "Hey! What happened to the music?",
+			"key": "bnyEnd2",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "haha",
+			"string": "hahaha.",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "That voice.",
+			"key": "bnyEnd3",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "It seems familiar.",
+			"key": "bnyEnd4",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "angry",
+			"string": "He sounds like a total nerd.",
+			"key": "bnyEnd5",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "angry",
+			"string": "You jerk!",
+			"key": "bnyEnd6",
+			"side": "right"
+		}
+	]
+}

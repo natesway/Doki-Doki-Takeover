@@ -1,0 +1,10 @@
+{
+    "song": {
+        "name": "Shinkyoku",
+        "artist": "Blantados",
+        "icon": "pen-pixel",
+        "pause": "monika",
+        "introDialogue": "IntroDialogue",
+        "endDialogue": "EndDialogue"
+    }
+}

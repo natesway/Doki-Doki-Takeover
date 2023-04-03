@@ -8142,10 +8142,10 @@ class PlayState extends MusicBeatState
 							camFollow.x = dad.getMidpoint().x - 25;
 							camFollow.y = dad.getMidpoint().y - 430;
 						}
-					case 'senpai' | 'senpai-angry' | 'playablesenpai':
+					case 'senpai' | 'senpai-angry' | 'playablesenpai' | 'blantad-senpai' | 'blantad-senpai-angry':
 						camFollow.x = dad.getMidpoint().x - 100;
 						camFollow.y = dad.getMidpoint().y - 430;
-					case 'duet' | 'duetnew':
+					case 'duet' | 'duetnew' | 'sentank-duet':
 						camFollow.x = dad.getMidpoint().x;
 						camFollow.y = dad.getMidpoint().y - 400;
 					case 'monika-angryold':
@@ -8217,9 +8217,12 @@ class PlayState extends MusicBeatState
 					// they don't get cam adjustment
 					case 'monika':
 						camFollow.y += 50;
-					case 'senpai' | 'senpai-angry' | 'playablesenpai':
+					case 'senpai' | 'senpai-angry' | 'playablesenpai' | 'blantad-senpai' | 'blantad-senpai-angry':
 						camFollow.x = boyfriend.getMidpoint().x - 500;
 						camFollow.y = boyfriend.getMidpoint().y - 430;
+					case 'sentank-duet':
+						camFollow.x = dad.getMidpoint().x - 400;
+						camFollow.y = dad.getMidpoint().y - 400;
 					case 'bigmonika' | 'bigmonika-dead':
 						camFollow.x = 600;
 						camFollow.y = 300;

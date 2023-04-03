@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Angry Senpai Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SENPAI UP NOTE"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Angry Senpai RIGHT NOTE"
+		},
+		{
+			"offsets": [
+				30,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Angry Senpai LEFT NOTE"
+		},
+		{
+			"offsets": [
+				12,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Angry Senpai DOWN NOTE"
+		},
+		{
+			"offsets": [
+				0,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "ANGRY SEnpai UPNOTE MISS"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "ANGRY SeNpai RIGHTNOTE MISS"
+		},
+		{
+			"offsets": [
+				30,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "ANGRY SeNPai LEFTNOTE MISS"
+		},
+		{
+			"offsets": [
+				12,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "ANGRY SenPai DOWNNOTE MISS"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/blantad-senpai",
+	"position": [
+		-50,
+		-230
+	],
+	"healthicon": "blantad-senpai",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		170,
+		111
+	],
+	"camera_position": [
+		-240,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 6,
+	"gameover_character": "blantad-senpai-dead",
+	"death_sound": "fnf_loss_sfx-senpai"
+}

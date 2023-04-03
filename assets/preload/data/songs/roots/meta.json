@@ -1,0 +1,10 @@
+{
+    "song": {
+        "name": "Roots",
+        "artist": "GRYSCL",
+        "icon": "pen-pixel",
+        "pause": "monika",
+        "introDialogue": "",
+        "endDialogue": "EndDialogue"
+    }
+}

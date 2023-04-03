@@ -1,0 +1,15 @@
+{
+	"startingMusic": "",
+	"initStyle": "pixel",
+	"dialogue": 
+	[
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "So, how was it?",
+			"key": "shiEnd1",
+			"side": "right"
+		}
+	]
+}

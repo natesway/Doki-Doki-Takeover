@@ -1,0 +1,279 @@
+{
+	"startingMusic": "",
+	"initStyle": "pixel",
+	"dialogue": 
+	[
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "Well that doesn't matter.",
+			"key": "shiIntro1",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "oops",
+			"string": "Do you guys not know the situation you're in?",
+			"key": "shiIntro2",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Ack! He's right!",
+			"key": "shiIntro3",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "If he turns off the console, we'll have no way of getting out.",
+			"key": "shiIntro4",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "Console?",
+			"key": "shiIntro5",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Again, you wouldn't get it.",
+			"key": "shiIntro6",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "But, isn't Senpai like, really powerful now?",
+			"key": "shiIntro7",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "But I'm not-",
+			"key": "shiIntro8",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "She meant me you halfwit.",
+			"key": "shiIntro9",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "I'm not just some simple minded fool.",
+			"key": "shiIntro10",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "angry",
+			"string": "I made a lil device to make sure that Senpai's powers are nullified until you fulfill my demands.",
+			"key": "shiIntro11",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "After all, I did come up with this entire storyline.",
+			"key": "shiIntro12",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "Huh?",
+			"key": "shiIntro13",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Yeah... I don't get any of the stuff he says either.",
+			"key": "shiIntro14",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "angry",
+			"string": "What do you want anyway?",
+			"key": "shiIntro15",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "Well...",
+			"key": "shiIntro16",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "haha",
+			"string": "I hacked the game and switched Bara No Yume with a new song I created for you guys to sing.",
+			"key": "shiIntro17",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "Now all you guys have to do is sing the song and give me your opinions on it.",
+			"key": "shiIntro18",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "So that's why the song crashed!",
+			"key": "shiIntro19",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "That's it?",
+			"key": "shiIntro20",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "hmm",
+			"string": "That should be easy enough.",
+			"key": "shiIntro21",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "neutral",
+			"string": "Great! Just let me finish setting up!",
+			"key": "shiIntro22",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "Wait a minute!",
+			"key": "shiIntro23",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "I still haven't allowed you to use my mic! Give it back!",
+			"key": "shiIntro24",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "Again, it's not-",
+			"key": "shiIntro25",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "I said GIVE IT!",
+			"key": "shiIntro24",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "N-No!",
+			"key": "shiIntro25",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Again. Very awkward.",
+			"key": "shiIntro26",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Let's just get this over with.",
+			"key": "shiIntro27",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "angry",
+			"string": "Ah crap!",
+			"key": "shiIntro28",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "oops",
+			"string": "I may or may not have accidentally broke the arrows...",
+			"key": "shiIntro29",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Who cares! We'll deal with it.",
+			"key": "shiIntro30",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Just start the song!",
+			"key": "shiIntro31",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantados",
+			"expression": "oops",
+			"string": "Yeah, yeah. I'm on it.",
+			"key": "shiIntro32",
+			"side": "right"
+		}
+	]
+}

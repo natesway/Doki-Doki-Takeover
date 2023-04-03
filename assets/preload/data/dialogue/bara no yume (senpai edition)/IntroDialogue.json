@@ -1,0 +1,190 @@
+{
+	"startingMusic": "",
+	"initStyle": "pixel",
+	"dialogue": 
+	[
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "Wait-",
+			"key": "bnyIntro1",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "Is that my microphone? How the hell did you get that?",
+			"key": "bnyIntro2",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "...",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "Who is this guy and why does he look so much like me?!",
+			"key": "bnyIntro3",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Huh.",
+			"key": "bnyIntro4",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "It looks like this game couldn't function without me so it had to create a new Senpai to replace me.",
+			"key": "bnyIntro5",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "What?",
+			"key": "bnyIntro6",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Nevermind. You wouldn't get it.",
+			"key": "bnyIntro7",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "ENOUGH!",
+			"key": "bnyIntro8",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "I don't get any of this game stuff you're talking about but that's my microphone so give it back!",
+			"key": "bnyIntro9",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "Huh? No, wait, I was just about to-",
+			"key": "bnyIntro10",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "senpai",
+			"expression": "angry",
+			"string": "I said GIVE IT!",
+			"key": "bnyIntro11",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "N-no!",
+			"key": "bnyIntro12",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Well this is awkward.",
+			"key": "bnyIntro13",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hyped",
+			"string": "Oh and you're on!",
+			"key": "bnyIntro14",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "neutral",
+			"string": "Mind if I join in?",
+			"key": "bnyIntro15",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Sure, why not!",
+			"key": "bnyIntro16",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Did you bring your mic?",
+			"key": "bnyIntro17",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "neutral",
+			"string": "No.",
+			"key": "bnyIntro18",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "neutral",
+			"string": "I was kinda hoping we could do what they're doing without the fighting.",
+			"key": "bnyIntro19",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "That works.",
+			"key": "bnyIntro20",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hyped",
+			"string": "But I call hold dibs.",
+			"key": "bnyIntro21",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "neutral",
+			"string": "Deal!",
+			"key": "bnyIntro22",
+			"side": "right"
+		}
+	]
+}
