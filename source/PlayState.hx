@@ -2589,7 +2589,7 @@ class PlayState extends MusicBeatState
 			{
 				switch (curSong.toLowerCase())
 				{
-					case 'dual demise' | 'your demise' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted':
+					case 'dual demise' | 'your demise' | 'your demise (senpai edition)' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted':
 						customstart();
 					default:
 						startCountdown();
@@ -2600,7 +2600,7 @@ class PlayState extends MusicBeatState
 		{
 			switch (curSong.toLowerCase())
 			{
-				case 'dual demise' | 'your demise' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted':
+				case 'dual demise' | 'your demise' | 'your demise (senpai edition)' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted':
 					customstart();
 				default:
 					startCountdown();
@@ -2876,7 +2876,7 @@ class PlayState extends MusicBeatState
 			case 'dual demise':
 				iconP2.changeIcon('dual-demise');
 				startCountdown();
-			case 'your demise':
+			case 'your demise' | 'your demise (senpai edition)':
 				add(blackScreen);
 				blackScreen.alpha = 0.0001;
 				startCountdown();
@@ -3276,7 +3276,7 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.song.toLowerCase())
 		{
-			case "your demise":
+			case "your demise" | 'your demise (senpai edition)':
 				{
 					add(blackScreen);
 
@@ -3292,7 +3292,7 @@ class PlayState extends MusicBeatState
 					});
 				}
 
-			case "bara no yume":
+			case "bara no yume" | "bara no yume (senpai edition)":
 				{
 					FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
 					//dad.playAnim('cutsceneidle'); //disabled until further notice
@@ -6594,7 +6594,7 @@ class PlayState extends MusicBeatState
 
 							defaultCamZoom = 1.2;
 					}
-				case 'your demise':
+				case 'your demise' | 'your demise (senpai edition)':
 					switch (curStep)
 					{
 						case 1:

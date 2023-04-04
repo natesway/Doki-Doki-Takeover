@@ -584,6 +584,20 @@
 			"hiddenType": "libitina"
 		},
 		{
+			"realName": "Shinkyoku",
+			"iconName": "SenpaiMonika",
+			"description": "Composed by Blantados",
+			"twitter": "",
+			"whichrole": 6
+		},
+		{
+			"realName": "Roots",
+			"iconName": "MonikaPixel",
+			"description": "Composed by GRYSCL",
+			"twitter": "",
+			"whichrole": 6
+		},
+		{
 			"realName": "Menu Music",
 			"iconName": "Monika",
 			"description": "Composed by DPZ",
@@ -910,7 +924,28 @@
 			"description": "8owser16, AfroDanceMan, Awoofle, Bijuu Mike,\nBlantados, Butterflan, Danish.exe, DesireDelta,\nemeruga, EnigmaticQube, firubii, Iamjace,\nJakeNeutron, Penkaru, Saki760, shiroeyoru,\nSantiOkuu, Shouko-kun, Starbitz, StariiFish,\nThe Dustercord, Tiniest Turtles, UniqueGeese,\nvivwikls, Zee, and you!",
 			"twitter": "",
 			"whichrole": 10
+		},
+		{
+			"realName": "Blantados",
+			"iconName": "Blantados",
+			"description": "Created the original and is also a cool person",
+			"twitter": "https://twitter.com/Blantados",
+			"whichrole": 11
+		},
+		{
+			"realName": "KitsuneAubrey",
+			"iconName": "KitsuneAubrey",
+			"description": "New Senpai and Tankman Duet sprites",
+			"twitter": "https://twitter.com/DMMaster",
+			"whichrole": 11
+		},
+		{
+			"realName": "DMMaster",
+			"iconName": "DMMaster",
+			"description": "Ported it all and also made the new voices",
+			"twitter": "https://twitter.com/AubreeShelly",
+			"whichrole": 11
 		}
 	],
-	"listoroles": ["Mod Directors", "Artists", "Guest Artists", "Programmers", "Charters", "Musicians", "Music", "Writing / Translation", "Voices", "Cameos", "Additional Credits"]
+	"listoroles": ["Mod Directors", "Artists", "Guest Artists", "Programmers", "Charters", "Musicians", "Music", "Writing / Translation", "Voices", "Cameos", "Additional Credits", "Senpai Edition"]
 }
