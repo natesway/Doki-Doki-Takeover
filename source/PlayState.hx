@@ -149,7 +149,6 @@ class PlayState extends MusicBeatState
 	public static var gf:Character;
 	public static var boyfriend:Character;
 
-
 	public var BF_X:Float = 770;
 	public var BF_Y:Float = 100;
 	public var DAD_X:Float = 100;
@@ -354,7 +353,6 @@ class PlayState extends MusicBeatState
 	var funnytext:FlxTypeText;
 	var happyEnding:Bool = false;
 
-
 	//CGs are here
 	var cg1:BGSprite;
 	var cg2:BGSprite;
@@ -400,7 +398,6 @@ class PlayState extends MusicBeatState
 	var libVignette:BGSprite;
 	var grpPopups = new FlxTypedGroup<BGSprite>();
 
-	var altAnim:String = "";
 	var fc:Bool = true;
 
 	var isintro:Bool = true;
@@ -462,6 +459,8 @@ class PlayState extends MusicBeatState
 	public static var sectionStart:Bool = false;
 	public static var sectionStartPoint:Int = 0;
 	public static var sectionStartTime:Float = 0;
+
+	// other stuff
 
 	override public function create()
 	{
@@ -3292,7 +3291,7 @@ class PlayState extends MusicBeatState
 					});
 				}
 
-			case "bara no yume" | "bara no yume (senpai edition)":
+			case "bara no yume" | "bara no yume (senpai edition)" | "shinkyoku":
 				{
 					FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
 					//dad.playAnim('cutsceneidle'); //disabled until further notice
@@ -6011,8 +6010,21 @@ class PlayState extends MusicBeatState
 
 		updateAccuracy();
 
+		var altNote:Bool = false;
+		notes.forEachAlive(function(daNote:Note)
+		{
+			if(daNote.noteType == 1)
+				altNote = true;
+			else
+				altNote = false;
+		});
+
+		var altAnim:String = "";
+		if (isAltAnimSection() || altNote)
+			altAnim = '-alt';
+
 		var char:Character = boyfriend;
-		var animToPlay:String = singAnimations[Std.int(Math.abs(daNote.noteData))] + 'miss';
+		var animToPlay:String = singAnimations[Std.int(Math.abs(daNote.noteData))] + 'miss' + altAnim;
 
 		if (mirrormode)
 		{
@@ -6096,7 +6108,21 @@ class PlayState extends MusicBeatState
 			var char:Character = boyfriend;
 			if (mirrormode) char = dad;
 
-			var animToPlay:String = singAnimations[Std.int(Math.abs(direction))] + 'miss';
+			var altNote:Bool = false;
+			notes.forEachAlive(function(daNote:Note)
+			{
+				if(daNote.noteType == 1)
+					altNote = true;
+				else
+					altNote = false;
+			});
+
+			var altAnim:String = "";
+
+			if (isAltAnimSection() || altNote)
+				altAnim = '-alt';
+
+			var animToPlay:String = singAnimations[Std.int(Math.abs(direction))] + 'miss' + altAnim;
 
 			char.playAnim(animToPlay, true);
 
@@ -6226,7 +6252,6 @@ class PlayState extends MusicBeatState
 
 			if (isAltAnimSection() || note.noteType == 1)
 				altAnim = '-alt';
-			
 
 			var char:Character = boyfriend;
 			var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))];
@@ -8221,8 +8246,8 @@ class PlayState extends MusicBeatState
 						camFollow.x = boyfriend.getMidpoint().x - 500;
 						camFollow.y = boyfriend.getMidpoint().y - 430;
 					case 'sentank-duet':
-						camFollow.x = dad.getMidpoint().x - 400;
-						camFollow.y = dad.getMidpoint().y - 400;
+						camFollow.x = boyfriend.getMidpoint().x - 400;
+						camFollow.y = boyfriend.getMidpoint().y - 400;
 					case 'bigmonika' | 'bigmonika-dead':
 						camFollow.x = 600;
 						camFollow.y = 300;
@@ -8232,7 +8257,7 @@ class PlayState extends MusicBeatState
 							case 'school':
 								switch (curSong.toLowerCase())
 								{
-									case "bara no yume":
+									case "bara no yume" | "shinkyoku":
 										camFollow.x = boyfriend.getMidpoint().x - 500;
 										camFollow.y = boyfriend.getMidpoint().y - 300;
 									default:
