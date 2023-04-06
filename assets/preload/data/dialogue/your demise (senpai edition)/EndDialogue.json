@@ -14,23 +14,30 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "uhoh",
-			"string": "Ahaha, I should know better-",
+			"string": "Ahaha, I actually lost.",
 			"key": "ydEnd1",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "angry",
+			"string": "Now bring them back!",
+			"key": "ydEnd2",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "hmm",
+			"string": "...",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
 			"expression": "uhoh",
-			"string": "Trying to interfere with people's love lives again.",
-			"key": "ydEnd2",
-			"side": "left"
-		},
-		{
-			"isCommand": false,
-			"name": "monika",
-			"expression": "hmm",
-			"string": "I'll leave you be.",
+			"string": "Alright, guess I should keep my promise.",
 			"key": "ydEnd3",
 			"side": "left"
 		},
@@ -42,97 +49,74 @@
 		{
 			"isCommand": true,
 			"name": "flash",
-			"duration": 0.5
-		},
-		{
-			"isCommand": true,
-			"name": "playcutscene",
-			"string": "pixelend",
-			"duration": 5
+			"duration": 1
 		},
 		{
 			"isCommand": true,
 			"name": "showbackgroundimage",
-			"string": "ending0"
-		},
-		{
-			"isCommand": true,
-			"name": "fadeout",
-			"string": "hidedialogue",
-			"duration": 4
-		},
-		{
-			"isCommand": true,
-			"name": "showbackgroundimage",
-			"string": "ending3"
-		},
-		{
-			"isCommand": true,
-			"name": "fadein",
-			"string": "hidedialogue",
-			"duration": 4
+			"string": "endingSE1"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
+			"name": "blantad-senpai",
 			"expression": "hmm",
-			"string": "So, you weren't the one who stole my mic?",
+			"string": "So, you did bring everything back right?",
 			"key": "ydEnd4",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "sad",
+			"string": "Yeah.",
+			"key": "ydEnd5",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
 			"expression": "sad",
-			"string": "That blue-haired kid gave it to me when I showed up.",
-			"key": "ydEnd5",
-			"side": "right"
-		},
-		{
-			"isCommand": false,
-			"name": "monika",
-			"expression": "sad",
-			"string": "I don't know where he got it.",
+			"string": "Sorry for getting a bit irritated back there.",
 			"key": "ydEnd6",
-			"side": "right"
+			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "sad",
-			"string": "I don't even know how I got here, for that matter.",
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "It's alright.",
 			"key": "ydEnd7",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
-			"expression": "hmm",
-			"string": "Hmm-",
+			"name": "monika",
+			"expression": "gasp",
+			"string": "Oh and I'm so sorry for deleting you too Mr. Tankman sir.",
 			"key": "ydEnd8",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
+			"name": "tankman",
 			"expression": "hmm",
-			"string": "And what exactly happened after our... unintentional duet?",
+			"string": "It's fine.",
 			"key": "ydEnd9",
-			"side": "left"
+			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "sad",
-			"string": "I... got rid of everyone.",
+			"name": "tankman",
+			"expression": "angry",
+			"string": "Just don't pull that crap ever again.",
 			"key": "ydEnd10",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "sad",
-			"string": "Temporarily. It's something I can do, but that's a long story.",
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Hmm... What exactly happened to that other Senpai?",
 			"key": "ydEnd11",
 			"side": "right"
 		},
@@ -140,109 +124,131 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "sad",
-			"string": "-and that included that kid's girlfriend.",
+			"string": "Uh...",
 			"key": "ydEnd12",
-			"side": "right"
+			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "uhoh",
-			"string": "Ahaha, old habits die hard, as they say.",
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "You didn't bring him back, did you?",
 			"key": "ydEnd13",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
-			"expression": "hmm",
-			"string": "You got his girl too?",
-			"key": "ydEnd14",
+			"name": "monika",
+			"expression": "sad",
+			"string": "...",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "sad",
-			"string": "",
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Whatever the game will just generate a new one.",
+			"key": "ydEnd14",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
-			"expression": "",
-			"string": "Hah! I bet you really pissed that worm off!",
-			"key": "ydEnd15",
-			"side": "left"
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "...",
+			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
-			"expression": "",
-			"string": "I wish I was there to see the look on his hideous baby face.",
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Anyways, we should probably get going.",
+			"key": "ydEnd15",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "You've still got to prepare for when that worm gets here.",
 			"key": "ydEnd16",
-			"side": "left"
+			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
 			"expression": "sad",
-			"string": "He was mad...",
+			"string": "...",
+			"side": "left"
+		},
+		{
+			"isCommand": true,
+			"name": "showbackgroundimage",
+			"string": "endingSE2"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Cya later, Moni-",
 			"key": "ydEnd17",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
-			"expression": "sad",
-			"string": "...",
-			"side": "right"
-		},
-		{
-			"isCommand": false,
-			"name": "senpai",
-			"expression": "hmm",
-			"string": "...",
-			"side": "left"
-		},
-		{
-			"isCommand": false,
-			"name": "senpai",
-			"expression": "",
-			"string": "Hey.",
+			"expression": "gasp",
+			"string": "Wait!",
 			"key": "ydEnd18",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
-			"expression": "gasp",
-			"string": "...hm?",
+			"expression": "sad",
+			"string": "Can we have one last song before you go?",
 			"key": "ydEnd19",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "",
+			"string": "I don't see why not.",
+			"key": "ydEnd20",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
-			"expression": "",
-			"string": "Your performance wasn't half bad earlier.",
-			"key": "ydEnd20",
-			"side": "left"
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Hey cap-",
+			"key": "ydEnd21",
+			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "senpai",
-			"expression": "",
-			"string": "Care for another song?",
-			"key": "ydEnd21",
-			"side": "left"
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "Aaaaaand he already left...",
+			"key": "ydEnd22",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Guess we'll just sing without him then.",
+			"key": "ydEnd23",
+			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
-			"expression": "gasp",
-			"string": "..!",
-			"side": "right"
+			"expression": "happy",
+			"string": "Alright!",
+			"key": "ydEnd24",
+			"side": "left"
 		}
 	]
 }

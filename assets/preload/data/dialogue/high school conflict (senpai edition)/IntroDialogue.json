@@ -7,63 +7,63 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "gasp",
-			"string": "...huh?",
+			"string": "Hey, you're back!",
 			"key": "hscIntro1",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "gasp",
-			"string": "I thought... they deleted me. After what I did to my friends.",
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Yeah.",
 			"key": "hscIntro2",
-			"side": "left"
+			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "gasp",
-			"string": "-but where am I now?",
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "I heard about the new update to your mod so I came back to see what you've got!",
 			"key": "hscIntro3",
-			"side": "left"
+			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
-			"expression": "hueh",
-			"string": "Beep!",
+			"name": "blantad-senpai",
+			"expression": "hyped",
+			"string": "I gotta admit, this new pixel style fits you.",
 			"key": "hscIntro4",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
-			"expression": "gasp",
-			"string": "-Oh! Hello?",
+			"expression": "happy",
+			"string": "Haha, thank you!",
 			"key": "hscIntro5",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "neutral",
-			"string": "Skee dep boop!",
+			"string": "Nope.",
 			"key": "hscIntro6",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "gasp",
-			"string": "You wanna sing?",
+			"name": "blantad-senpai",
+			"expression": "hyped",
+			"string": "I became way stronger after some guy with a green shirt gave me 0.002% of his power.",
 			"key": "hscIntro7",
-			"side": "left"
+			"side": "right"
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "neutral",
-			"string": "Beep dai!",
+			"string": "Now I can leave and reenter this game whenever I want.",
 			"key": "hscIntro8",
 			"side": "right"
 		},
@@ -71,40 +71,112 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "gasp",
-			"string": "...Things are happening really fast.",
+			"string": "Huh.",
 			"key": "hscIntro9",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
+			"name": "blantad-senpai",
 			"expression": "neutral",
-			"string": "-but you know what?",
+			"string": "Anyways, has that worm come to fight you yet?",
 			"key": "hscIntro10",
-			"side": "left"
+			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
-			"expression": "happy",
-			"string": "I'd love to!",
+			"expression": "neutral",
+			"string": "Not yet.",
 			"key": "hscIntro11",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
-			"expression": "neutral",
-			"string": "Usually I'd play piano while I sing, but this isn't a bad change of pace.",
+			"expression": "hmm",
+			"string": "He seems to be taking a while to get here.",
 			"key": "hscIntro12",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hmm",
+			"string": "I see...",
+			"key": "hscIntro13",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "How about we sing something while waiting for him?",
+			"key": "hscIntro14",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "happy",
+			"string": "I'd love to!",
+			"key": "hscIntro15",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "neutral",
+			"string": "By the way, who's your friend here?",
+			"key": "hscIntro16",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "neutral",
+			"string": "The name's Sergeant John Captain.",
+			"key": "hscIntro17",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "tankman",
+			"expression": "neutral",
+			"string": "Just call me Tankman.",
+			"key": "hscIntro18",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "We became friends after he was trapped in here by HER dad.",
+			"key": "hscIntro19",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "I see.",
+			"key": "hscIntro20",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "neutral",
+			"string": "Well then.",
+			"key": "hscIntro21",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
 			"expression": "happy",
-			"string": "So... Yeah!",
-			"key": "hscIntro13",
+			"string": "Let's sing!",
+			"key": "hscIntro22",
 			"side": "left"
 		}
 	]

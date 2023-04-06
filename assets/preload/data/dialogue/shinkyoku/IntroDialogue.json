@@ -1,6 +1,6 @@
 {
 	"startingMusic": "",
-	"initStyle": "pixel",
+	"initStyle": "normal",
 	"dialogue": 
 	[
 		{
@@ -18,6 +18,11 @@
 			"string": "Do you guys not know the situation you're in?",
 			"key": "shiIntro2",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "pixel"
 		},
 		{
 			"isCommand": false,
@@ -76,6 +81,11 @@
 			"side": "right"
 		},
 		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
+		},
+		{
 			"isCommand": false,
 			"name": "blantados",
 			"expression": "neutral",
@@ -98,6 +108,11 @@
 			"string": "After all, I did come up with this entire storyline.",
 			"key": "shiIntro12",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "pixel"
 		},
 		{
 			"isCommand": false,
@@ -124,6 +139,11 @@
 			"side": "right"
 		},
 		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
+		},
+		{
 			"isCommand": false,
 			"name": "blantados",
 			"expression": "neutral",
@@ -146,6 +166,11 @@
 			"string": "Now all you guys have to do is sing the song and give me your opinions on it.",
 			"key": "shiIntro18",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "pixel"
 		},
 		{
 			"isCommand": false,
@@ -172,12 +197,22 @@
 			"side": "right"
 		},
 		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
+		},
+		{
 			"isCommand": false,
 			"name": "blantados",
 			"expression": "neutral",
 			"string": "Great! Just let me finish setting up!",
 			"key": "shiIntro22",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "pixel"
 		},
 		{
 			"isCommand": false,
@@ -236,6 +271,11 @@
 			"side": "right"
 		},
 		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
+		},
+		{
 			"isCommand": false,
 			"name": "blantados",
 			"expression": "angry",
@@ -252,6 +292,11 @@
 			"side": "right"
 		},
 		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "pixel"
+		},
+		{
 			"isCommand": false,
 			"name": "blantad-senpai",
 			"expression": "hmm",
@@ -266,6 +311,11 @@
 			"string": "Just start the song!",
 			"key": "shiIntro31",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
 		},
 		{
 			"isCommand": false,

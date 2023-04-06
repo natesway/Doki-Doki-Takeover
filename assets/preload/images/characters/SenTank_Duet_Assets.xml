@@ -241,18 +241,18 @@
 	<SubTexture name="Duet Tankman Up Miss0012" x="875" y="564" width="115" height="131"/>
 	<SubTexture name="Duet Tankman Up Miss0013" x="875" y="564" width="115" height="131"/>
 	<SubTexture name="Duet Tankman Up Miss0013" x="875" y="564" width="115" height="131"/>
-	<SubTexture name="cutscene idle20000" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20001" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20002" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20003" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20004" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20005" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20006" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20007" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20008" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20009" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20010" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20011" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20012" x="0" y="705" width="115" height="131"/>
-	<SubTexture name="cutscene idle20013" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0000" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0001" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0002" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0003" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0004" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0005" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0006" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0007" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0008" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0009" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0010" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0011" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0012" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle0013" x="0" y="705" width="115" height="131"/>
 </TextureAtlas>

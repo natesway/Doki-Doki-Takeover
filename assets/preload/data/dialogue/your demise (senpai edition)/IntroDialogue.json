@@ -13,18 +13,10 @@
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
-			"expression": "what",
-			"string": "SKEE DEP!",
+			"name": "blantad-senpai",
+			"expression": "angry",
+			"string": "What the hell!",
 			"key": "ydIntro2",
-			"side": "right"
-		},
-		{
-			"isCommand": false,
-			"name": "bf",
-			"expression": "what",
-			"string": "(Translation) GIRLFRIEND!",
-			"key": "ydIntro3",
 			"side": "right"
 		},
 		{
@@ -32,12 +24,12 @@
 			"name": "monika",
 			"expression": "",
 			"string": "Let's get back to singing, shall we?",
-			"key": "ydIntro4",
+			"key": "ydIntro3",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "angry",
 			"string": "...",
 			"side": "right"
@@ -47,22 +39,30 @@
 			"name": "monika",
 			"expression": "gasp",
 			"string": "Hmm?",
-			"key": "ydIntro5",
+			"key": "ydIntro4",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "angry",
-			"string": "*aggressive bee bop noises*",
-			"key": "ydIntro6",
+			"string": "What did you do with Tankman?!",
+			"key": "ydIntro5",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
 			"expression": "gasp",
-			"string": "Oh... her.",
+			"string": "Oh... him.",
+			"key": "ydIntro6",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "",
+			"string": "Honestly, I completely forgot he was here.",
 			"key": "ydIntro7",
 			"side": "left"
 		},
@@ -70,24 +70,16 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "",
-			"string": "Hey, let's not worry about her, ok?",
+			"string": "C'mon, I've got a very special song I've wanted to sing!",
 			"key": "ydIntro8",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "monika",
-			"expression": "",
-			"string": "C'mon, I've got a very special song I've wanted to sing!",
-			"key": "ydIntro9",
-			"side": "left"
-		},
-		{
-			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "angry",
-			"string": "*continuation of angry bee bops*",
-			"key": "ydIntro10",
+			"string": "Why should I sing with you?!",
+			"key": "ydIntro9",
 			"side": "right"
 		},
 		{
@@ -108,9 +100,25 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "hmm",
-			"string": "One more song.",
-			"key": "ydIntro11",
+			"string": "If you beat me, I promise I'll bring everything back.",
+			"key": "ydIntro10",
 			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "angry",
+			"string": "FINE!",
+			"key": "ydIntro11",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "angry",
+			"string": "Let's do this!",
+			"key": "ydIntro9",
+			"side": "right"
 		}
 	]
 }

@@ -4,25 +4,25 @@
 	[
 		{
 			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "neutral",
-			"string": "Skdee bep!",
+			"string": "I see you still haven't lost your touch!",
 			"key": "hscEnd1",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "hyped",
+			"string": "And this remix and the new voice make it even better!",
+			"key": "hscEnd2",
 			"side": "right"
 		},
 		{
 			"isCommand": false,
 			"name": "monika",
 			"expression": "happy",
-			"string": "You kept up really well with my song!",
-			"key": "hscEnd2",
-			"side": "left"
-		},
-		{
-			"isCommand": false,
-			"name": "monika",
-			"expression": "neutral",
-			"string": "Ah, I haven't felt this happy in a while!",
+			"string": "Thanks! It took me a while for this music to sound as good as possible...",
 			"key": "hscEnd3",
 			"side": "left"
 		},
@@ -30,16 +30,40 @@
 			"isCommand": false,
 			"name": "monika",
 			"expression": "neutral",
-			"string": "Could we sing again?",
+			"string": "...And you did pretty well too!",
 			"key": "hscEnd4",
 			"side": "left"
 		},
 		{
 			"isCommand": false,
-			"name": "bf",
+			"name": "blantad-senpai",
 			"expression": "neutral",
-			"string": "Beep!",
+			"string": "Thanks!",
 			"key": "hscEnd5",
+			"side": "right"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "hmm",
+			"string": "Hmm... Looks like he still hasn't shown up yet.",
+			"key": "hscEnd6",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "monika",
+			"expression": "neutral",
+			"string": "Could we sing again?",
+			"key": "hscEnd7",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "blantad-senpai",
+			"expression": "neutral",
+			"string": "Sure!",
+			"key": "hscEnd8",
 			"side": "right"
 		},
 		{
@@ -47,7 +71,7 @@
 			"name": "monika",
 			"expression": "happy",
 			"string": "Alright! Here we go-",
-			"key": "hscEnd6",
+			"key": "hscEnd9",
 			"side": "left"
 		},
 		{
@@ -55,7 +79,7 @@
 			"name": "senpai",
 			"expression": "whodis",
 			"string": "Who the hell are you?!",
-			"key": "hscEnd7",
+			"key": "hscEnd10",
 			"side": "right"
 		},
 		{
@@ -63,7 +87,7 @@
 			"name": "monika",
 			"expression": "gasp",
 			"string": "-huh?",
-			"key": "hscEnd8",
+			"key": "hscEnd11",
 			"side": "left"
 		}
 	]

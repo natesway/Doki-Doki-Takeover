@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="tankman_n_senpai.png">
-	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Tankpai Menu0000" x="0" y="0" width="120" height="125"/>
 	<SubTexture name="Tankpai Menu0001" x="0" y="0" width="120" height="125"/>
+	<SubTexture name="Tankpai Menu0002" x="120" y="0" width="120" height="125"/>
 	<SubTexture name="Tankpai Menu0003" x="120" y="0" width="120" height="125"/>
-	<SubTexture name="Tankpai Menu0004" x="120" y="0" width="120" height="125"/>
+	<SubTexture name="Tankpai Menu0004" x="240" y="0" width="120" height="125"/>
 	<SubTexture name="Tankpai Menu0005" x="240" y="0" width="120" height="125"/>
 	<SubTexture name="Tankpai Menu0006" x="240" y="0" width="120" height="125"/>
+	<SubTexture name="Tankpai Menu0007" x="240" y="0" width="120" height="125"/>
+	<SubTexture name="Tankpai Menu0008" x="120" y="0" width="120" height="125"/>
+	<SubTexture name="Tankpai Menu0009" x="120" y="0" width="120" height="125"/>
+	<SubTexture name="Tankpai Menu0010" x="0" y="0" width="120" height="125"/>
 </TextureAtlas>

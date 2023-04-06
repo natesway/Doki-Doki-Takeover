@@ -186,6 +186,17 @@
 			"anim": "idle",
 			"loop": false,
 			"name": "Duet Idle"
+		},
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "cutsceneIdle",
+			"loop": true,
+			"name": "cutscene idle"
 		}
 	],
 	"no_antialiasing": true,

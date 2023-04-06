@@ -20,11 +20,21 @@
 			"side": "left"
 		},
 		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
+		},
+		{
 			"isCommand": false,
 			"name": "blantados",
 			"expression": "haha",
 			"string": "hahaha.",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "pixel"
 		},
 		{
 			"isCommand": false,
@@ -49,6 +59,11 @@
 			"string": "He sounds like a total nerd.",
 			"key": "bnyEnd5",
 			"side": "right"
+		},
+		{
+			"isCommand": true,
+			"name": "swapstyle",
+			"string": "normal"
 		},
 		{
 			"isCommand": false,

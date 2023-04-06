@@ -5,4 +5,5 @@
 	<SubTexture name="blantad-senpai_neutral0000" x="0" y="0" width="106" height="106"/>
 	<SubTexture name="blantad-senpai_hyped0001" x="106" y="0" width="106" height="106"/>
 	<SubTexture name="blantad-senpai_hmm0002" x="0" y="106" width="106" height="106"/>
+	<SubTexture name="blantad-senpai_angry0003" x="106" y="106" width="106" height="106"/>
 </TextureAtlas>

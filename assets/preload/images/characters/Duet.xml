@@ -122,4 +122,18 @@
 	<SubTexture name="SenUp0012" x="861" y="289" width="140" height="140"/>
 	<SubTexture name="SenUp0013" x="861" y="289" width="140" height="140"/>
 	<SubTexture name="SenUp0014" x="861" y="289" width="140" height="140"/>
+	<SubTexture name="cutscene idle0000" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0001" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0002" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0003" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0004" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0005" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0006" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0007" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0008" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0009" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0010" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0011" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0012" x="3" y="432" width="140" height="140"/>
+	<SubTexture name="cutscene idle0013" x="3" y="432" width="140" height="140"/>
 </TextureAtlas>

@@ -3291,27 +3291,43 @@ class PlayState extends MusicBeatState
 					});
 				}
 
-			case "bara no yume" | "bara no yume (senpai edition)" | "shinkyoku":
+			case "bara no yume" | "bara no yume (senpai edition)":
 				{
 					FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
-					//dad.playAnim('cutsceneidle'); //disabled until further notice
 
 					new FlxTimer().start(1.2, function(godlike:FlxTimer)
 					{
 						if (dialogueBox != null)
 						{
 							inCutscene = true;
-							/* disabled until further notice
+							add(dialogueBox);
+						}
+						else
+							startCountdown();
+					});
+				}
+
+			case "shinkyoku":
+				{
+					FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
+
+					dad.playAnim('cutsceneIdle');
+					boyfriend.playAnim('cutsceneIdle');
+
+					new FlxTimer().start(1.2, function(godlike:FlxTimer)
+					{
+						if (dialogueBox != null)
+						{
+							inCutscene = true;
 							dialogueBox.finishThing = function()
 							{
-								dad.playAnim('cutscenetransition');
+								dad.playAnim('idle');
 								new FlxTimer().start(1.2, function(godlike:FlxTimer)
 								{
-									dad.dance(isAltAnimSection());
-									startCountdown();
+									dad.dance();
+									//startCountdown();
 								});
 							};
-							*/
 							add(dialogueBox);
 						}
 						else
