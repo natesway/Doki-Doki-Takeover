@@ -3322,10 +3322,14 @@ class PlayState extends MusicBeatState
 							dialogueBox.finishThing = function()
 							{
 								dad.playAnim('idle');
+								boyfriend.playAnim('idle');
+
 								new FlxTimer().start(1.2, function(godlike:FlxTimer)
 								{
 									dad.dance();
-									//startCountdown();
+									boyfriend.dance();
+
+									startCountdown();
 								});
 							};
 							add(dialogueBox);

@@ -45,10 +45,18 @@
 		},
 		{
 			"isCommand": false,
+			"name": "monika",
+			"expression": "gasp",
+			"string": "But wait! Doesn't this mean you're stuck here again?",
+			"key": "hscIntro6",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
 			"name": "blantad-senpai",
 			"expression": "neutral",
 			"string": "Nope.",
-			"key": "hscIntro6",
+			"key": "hscIntro7",
 			"side": "right"
 		},
 		{
@@ -56,7 +64,7 @@
 			"name": "blantad-senpai",
 			"expression": "hyped",
 			"string": "I became way stronger after some guy with a green shirt gave me 0.002% of his power.",
-			"key": "hscIntro7",
+			"key": "hscIntro8",
 			"side": "right"
 		},
 		{
@@ -64,7 +72,7 @@
 			"name": "blantad-senpai",
 			"expression": "neutral",
 			"string": "Now I can leave and reenter this game whenever I want.",
-			"key": "hscIntro8",
+			"key": "hscIntro9",
 			"side": "right"
 		},
 		{
@@ -72,7 +80,7 @@
 			"name": "monika",
 			"expression": "gasp",
 			"string": "Huh.",
-			"key": "hscIntro9",
+			"key": "hscIntro10",
 			"side": "left"
 		},
 		{
@@ -80,7 +88,7 @@
 			"name": "blantad-senpai",
 			"expression": "neutral",
 			"string": "Anyways, has that worm come to fight you yet?",
-			"key": "hscIntro10",
+			"key": "hscIntro11",
 			"side": "right"
 		},
 		{
@@ -88,7 +96,7 @@
 			"name": "monika",
 			"expression": "neutral",
 			"string": "Not yet.",
-			"key": "hscIntro11",
+			"key": "hscIntro12",
 			"side": "left"
 		},
 		{
@@ -96,7 +104,7 @@
 			"name": "monika",
 			"expression": "hmm",
 			"string": "He seems to be taking a while to get here.",
-			"key": "hscIntro12",
+			"key": "hscIntro13",
 			"side": "left"
 		},
 		{
@@ -104,7 +112,7 @@
 			"name": "blantad-senpai",
 			"expression": "hmm",
 			"string": "I see...",
-			"key": "hscIntro13",
+			"key": "hscIntro14",
 			"side": "right"
 		},
 		{
@@ -112,7 +120,7 @@
 			"name": "blantad-senpai",
 			"expression": "neutral",
 			"string": "How about we sing something while waiting for him?",
-			"key": "hscIntro14",
+			"key": "hscIntro15",
 			"side": "right"
 		},
 		{
@@ -120,7 +128,7 @@
 			"name": "monika",
 			"expression": "happy",
 			"string": "I'd love to!",
-			"key": "hscIntro15",
+			"key": "hscIntro16",
 			"side": "left"
 		},
 		{
@@ -128,7 +136,7 @@
 			"name": "monika",
 			"expression": "neutral",
 			"string": "By the way, who's your friend here?",
-			"key": "hscIntro16",
+			"key": "hscIntro17",
 			"side": "left"
 		},
 		{
@@ -136,7 +144,7 @@
 			"name": "tankman",
 			"expression": "neutral",
 			"string": "The name's Sergeant John Captain.",
-			"key": "hscIntro17",
+			"key": "hscIntro18",
 			"side": "right"
 		},
 		{
@@ -144,7 +152,7 @@
 			"name": "tankman",
 			"expression": "neutral",
 			"string": "Just call me Tankman.",
-			"key": "hscIntro18",
+			"key": "hscIntro19",
 			"side": "right"
 		},
 		{
@@ -152,7 +160,7 @@
 			"name": "blantad-senpai",
 			"expression": "neutral",
 			"string": "We became friends after he was trapped in here by HER dad.",
-			"key": "hscIntro19",
+			"key": "hscIntro20",
 			"side": "right"
 		},
 		{
@@ -160,7 +168,7 @@
 			"name": "monika",
 			"expression": "gasp",
 			"string": "I see.",
-			"key": "hscIntro20",
+			"key": "hscIntro21",
 			"side": "left"
 		},
 		{
@@ -168,7 +176,7 @@
 			"name": "monika",
 			"expression": "neutral",
 			"string": "Well then.",
-			"key": "hscIntro21",
+			"key": "hscIntro22",
 			"side": "left"
 		},
 		{
@@ -176,7 +184,7 @@
 			"name": "monika",
 			"expression": "happy",
 			"string": "Let's sing!",
-			"key": "hscIntro22",
+			"key": "hscIntro23",
 			"side": "left"
 		}
 	]

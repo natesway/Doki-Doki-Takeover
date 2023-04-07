@@ -47,7 +47,8 @@ class DokiStoryState extends MusicBeatState
 		['Crucify (Yuri Mix)', 'Beathoven (Natsuki Mix)', "It's Complicated (Sayori Mix)", 'Glitcher (Monika Mix)'],
 		['Hot Air Balloon', 'Shrinking Violet', 'Joyride', 'Our Harmony'],
 		['NEET', 'You and Me', 'Takeover Medley'],
-		['Love n\' Funkin\'', 'Constricted', 'Catfight', 'Wilted']
+		['Love n\' Funkin\'', 'Constricted', 'Catfight', 'Wilted'],
+		['High School Conflict (Senpai Edition)', 'Bara No Yume (Senpai Edition)', 'Shinkyoku','Your Demise (Senpai Edition)', 'Roots']
 	];
 
 	//Ima make my life easier by being lazy
@@ -317,10 +318,15 @@ class DokiStoryState extends MusicBeatState
 
 	function goToState()
 	{
-		if (FlxG.keys.pressed.E && FlxG.keys.pressed.R && FlxG.keys.pressed.B)
+		if ((FlxG.keys.pressed.E && FlxG.keys.pressed.R && FlxG.keys.pressed.B) || FlxG.keys.pressed.E)
 		{
 			PlayState.storyPlaylist = ['erb'];
 			PlayState.storyDifficulty = 1;
+		}
+		else if ((FlxG.keys.pressed.E && FlxG.keys.pressed.X && FlxG.keys.pressed.T && FlxG.keys.pressed.R && FlxG.keys.pressed.A) || FlxG.keys.pressed.X)
+		{
+			PlayState.storyPlaylist = weekData[9];
+			PlayState.storyDifficulty = curDifficulty;
 		}
 		else
 		{
