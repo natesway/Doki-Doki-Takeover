@@ -184,7 +184,7 @@ class DokiFreeplayState extends MusicBeatState
 		menu_character = new FlxSprite(40, 490);
 		if (curPage != 3)
 		{
-			if (curPage != 6)
+			if (curPage != 5)
 			{
 				menu_character.frames = Paths.getSparrowAtlas('freeplay/chibidorks');
 				menu_character.animation.addByPrefix('idle', 'FreeplayChibiIdle', 24, false);

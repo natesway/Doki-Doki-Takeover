@@ -2588,7 +2588,7 @@ class PlayState extends MusicBeatState
 			{
 				switch (curSong.toLowerCase())
 				{
-					case 'dual demise' | 'your demise' | 'your demise (senpai edition)' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted':
+					case 'dual demise' | 'your demise' | 'your demise (senpai edition)' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted' | 'roots':
 						customstart();
 					default:
 						startCountdown();
@@ -2599,7 +2599,7 @@ class PlayState extends MusicBeatState
 		{
 			switch (curSong.toLowerCase())
 			{
-				case 'dual demise' | 'your demise' | 'your demise (senpai edition)' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted':
+				case 'dual demise' | 'your demise' | 'your demise (senpai edition)' | 'epiphany' | 'wilted' | 'you and me' | 'libitina' | 'takeover medley' | 'drinks on me' | 'our harmony' | 'love n funkin' | 'constricted' | 'roots':
 					customstart();
 				default:
 					startCountdown();
@@ -2875,7 +2875,7 @@ class PlayState extends MusicBeatState
 			case 'dual demise':
 				iconP2.changeIcon('dual-demise');
 				startCountdown();
-			case 'your demise' | 'your demise (senpai edition)':
+			case 'your demise' | 'your demise (senpai edition)' | 'roots':
 				add(blackScreen);
 				blackScreen.alpha = 0.0001;
 				startCountdown();
@@ -7693,8 +7693,17 @@ class PlayState extends MusicBeatState
 					{
 						case 896: //67.2 - 105.3
 							FlxTween.tween(boyfriend, {alpha: 0.2}, 38.1, {ease: FlxEase.linear});
+							FlxTween.tween(iconP1, {alpha: 0.2}, 38.1, {ease: FlxEase.linear});
+						case 1392: //104.4 - 116.4
+							for (i in 0...4)
+							{
+								FlxTween.tween(playerStrums.members[i], {alpha: 0}, 12, {ease: FlxEase.linear});
+							}
 						case 1408: //105.6 - 108
 							FlxTween.tween(boyfriend, {alpha: 0}, 2.4, {ease: FlxEase.linear});
+							FlxTween.tween(iconP1, {alpha: 0}, 2.4, {ease: FlxEase.linear});
+						case 1664: //124.8 - 129.6
+							FlxTween.tween(blackScreen, {alpha: 1}, 4.8, {ease: FlxEase.linear});
 					}
 			}
 		}
@@ -8274,7 +8283,7 @@ class PlayState extends MusicBeatState
 						camFollow.x = boyfriend.getMidpoint().x - 500;
 						camFollow.y = boyfriend.getMidpoint().y - 430;
 					case 'sentank-duet':
-						camFollow.x = boyfriend.getMidpoint().x - 500;
+						camFollow.x = boyfriend.getMidpoint().x - 550;
 						camFollow.y = boyfriend.getMidpoint().y - 400;
 					case 'bigmonika' | 'bigmonika-dead':
 						camFollow.x = 600;
@@ -8289,7 +8298,7 @@ class PlayState extends MusicBeatState
 										camFollow.x = boyfriend.getMidpoint().x - 500;
 										camFollow.y = boyfriend.getMidpoint().y - 300;
 									case "shinkyoku":
-										camFollow.x = boyfriend.getMidpoint().x;
+										camFollow.x = boyfriend.getMidpoint().x - 550;
 										camFollow.y = boyfriend.getMidpoint().y - 400;
 									default:
 										camFollow.x = boyfriend.getMidpoint().x - 400;
@@ -8304,7 +8313,13 @@ class PlayState extends MusicBeatState
 								else
 								{
 									camFollow.x = 765;
-									camFollow.y = 592;
+									switch (curSong.toLowerCase())
+									{
+										case "your demise (senpai edition)":
+											camFollow.y = 592;
+										default:
+											camFollow.y = 592;
+									}
 								}
 							case 'dokiclubroom' | 'dokifestival' | 'credits':
 								camFollow.y = boyfriend.getMidpoint().y - 200;
