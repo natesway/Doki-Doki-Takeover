@@ -7694,10 +7694,10 @@ class PlayState extends MusicBeatState
 						case 896: //67.2 - 105.3
 							FlxTween.tween(boyfriend, {alpha: 0.2}, 38.1, {ease: FlxEase.linear});
 							FlxTween.tween(iconP1, {alpha: 0.2}, 38.1, {ease: FlxEase.linear});
-						case 1392: //104.4 - 116.4
+						case 912:
 							for (i in 0...4)
 							{
-								FlxTween.tween(playerStrums.members[i], {alpha: 0}, 12, {ease: FlxEase.linear});
+								FlxTween.tween(playerStrums.members[i], {alpha: 0}, 46.8, {ease: FlxEase.linear});
 							}
 						case 1408: //105.6 - 108
 							FlxTween.tween(boyfriend, {alpha: 0}, 2.4, {ease: FlxEase.linear});

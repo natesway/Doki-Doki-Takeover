@@ -192,6 +192,8 @@ class DokiFreeplayState extends MusicBeatState
 			}
 			else
 			{
+				menu_character.x += 10;
+				menu_character.y += 10;
 				menu_character.frames = Paths.getSparrowAtlas('freeplay/tankpaichibi');
 				menu_character.animation.addByPrefix('idle', 'FreeplayChibiTankpaiIdle', 24, false);
 				menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiTankpaiCheer', 24, false);

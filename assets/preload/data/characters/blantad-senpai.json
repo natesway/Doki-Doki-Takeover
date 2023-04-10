@@ -6,20 +6,9 @@
 				0
 			],
 			"loop": false,
-			"anim": "danceLeft",
+			"anim": "idle",
 			"fps": 24,
-			"name": "Senpai Idle1",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"anim": "danceRight",
-			"fps": 24,
-			"name": "Senpai Idle2",
+			"name": "Senpai Idle",
 			"indices": []
 		},
 		{
