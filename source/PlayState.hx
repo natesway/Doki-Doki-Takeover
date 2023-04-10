@@ -7688,6 +7688,14 @@ class PlayState extends MusicBeatState
 							if (!SaveData.lowEnd)
 								rainBG.alpha = 0.001;
 					}
+				case 'roots':
+					switch (curStep)
+					{
+						case 896: //67.2 - 105.3
+							FlxTween.tween(boyfriend, {alpha: 0.2}, 38.1, {ease: FlxEase.linear});
+						case 1408: //105.6 - 108
+							FlxTween.tween(boyfriend, {alpha: 0}, 2.4, {ease: FlxEase.linear});
+					}
 			}
 		}
 
@@ -8266,7 +8274,7 @@ class PlayState extends MusicBeatState
 						camFollow.x = boyfriend.getMidpoint().x - 500;
 						camFollow.y = boyfriend.getMidpoint().y - 430;
 					case 'sentank-duet':
-						camFollow.x = boyfriend.getMidpoint().x - 400;
+						camFollow.x = boyfriend.getMidpoint().x - 500;
 						camFollow.y = boyfriend.getMidpoint().y - 400;
 					case 'bigmonika' | 'bigmonika-dead':
 						camFollow.x = 600;
@@ -8277,9 +8285,12 @@ class PlayState extends MusicBeatState
 							case 'school':
 								switch (curSong.toLowerCase())
 								{
-									case "bara no yume" | "shinkyoku":
+									case "bara no yume":
 										camFollow.x = boyfriend.getMidpoint().x - 500;
 										camFollow.y = boyfriend.getMidpoint().y - 300;
+									case "shinkyoku":
+										camFollow.x = boyfriend.getMidpoint().x;
+										camFollow.y = boyfriend.getMidpoint().y - 400;
 									default:
 										camFollow.x = boyfriend.getMidpoint().x - 400;
 										camFollow.y = boyfriend.getMidpoint().y - 300;
@@ -8351,7 +8362,15 @@ class PlayState extends MusicBeatState
 						}
 					case 'school':
 						camFollow.x = 642;
-						camFollow.y = 571;
+						switch (curSong.toLowerCase())
+						{
+							case "high school conflict (senpai edition)" | "bara no yume (senpai edition)" | "roots":
+								camFollow.y = dad.getMidpoint().y - 430;
+							case "shinkyoku":
+								camFollow.y = boyfriend.getMidpoint().y - 380;
+							default:
+								camFollow.y = 571;
+						}
 					case 'dokiclubroom' | 'dokifestival' | 'dokiglitcher':
 						switch (defaultCamZoom)
 						{

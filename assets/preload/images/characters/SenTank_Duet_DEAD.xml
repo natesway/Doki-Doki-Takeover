@@ -36,64 +36,64 @@
 	<SubTexture name="RETRY CONFIRM0031" x="256" y="0" width="123" height="128"/>
 	<SubTexture name="RETRY CONFIRM0032" x="256" y="0" width="123" height="128"/>
 	<SubTexture name="RETRY CONFIRM0033" x="256" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0000" x="384" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0001" x="384" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0002" x="512" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0003" x="512" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0004" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0005" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0006" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0007" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0008" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0009" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0010" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0011" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0012" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0013" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0014" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0015" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0016" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0017" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0018" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0019" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0020" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0021" x="640" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0022" x="768" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0023" x="768" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0024" x="896" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0025" x="896" y="0" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0026" x="0" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0027" x="0" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0028" x="128" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0029" x="128" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0030" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0031" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0032" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0033" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0034" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0035" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0036" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0037" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0038" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0039" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0040" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0041" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0042" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0043" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0044" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0045" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0046" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0047" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0048" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0049" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0050" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0051" x="256" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0052" x="384" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0053" x="384" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0054" x="512" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0055" x="512" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0056" x="640" y="133" width="123" height="128"/>
-	<SubTexture name="BF Dies pixel0057" x="640" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0000" x="384" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0001" x="384" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0002" x="512" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0003" x="512" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0004" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0005" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0006" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0007" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0008" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0009" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0010" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0011" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0012" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0013" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0014" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0015" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0016" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0017" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0018" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0019" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0020" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0021" x="640" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0022" x="768" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0023" x="768" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0024" x="896" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0025" x="896" y="0" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0026" x="0" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0027" x="0" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0028" x="128" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0029" x="128" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0030" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0031" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0032" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0033" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0034" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0035" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0036" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0037" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0038" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0039" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0040" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0041" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0042" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0043" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0044" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0045" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0046" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0047" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0048" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0049" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0050" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0051" x="256" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0052" x="384" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0053" x="384" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0054" x="512" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0055" x="512" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0056" x="640" y="133" width="123" height="128"/>
+	<SubTexture name="Senpai Dies0057" x="640" y="133" width="123" height="128"/>
 	<SubTexture name="senpai retry0000" x="768" y="133" width="123" height="128"/>
 	<SubTexture name="senpai retry0001" x="768" y="133" width="123" height="128"/>
 	<SubTexture name="senpai retry0002" x="896" y="133" width="123" height="128"/>

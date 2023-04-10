@@ -62,7 +62,8 @@ class DokiStoryState extends MusicBeatState
 		['Festival', SaveData.beatMonika, 612, 369],
 		['Encore', SaveData.beatFestival, 832, 369],
 		['Protag', SaveData.beatEncore, 1052, 369],
-		['sideStories', SaveData.beatProtag, 0, 0]
+		['sideStories', SaveData.beatProtag, 0, 0],
+		['extraStory', SaveData.beatPrologue, 0, 0]
 	];
 
 	var grpSprites:FlxSpriteGroup;

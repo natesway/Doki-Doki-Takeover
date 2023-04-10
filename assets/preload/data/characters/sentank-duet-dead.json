@@ -35,24 +35,24 @@
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/blantad-senpai-DEAD",
+	"image": "characters/SenTank_Duet_DEAD",
 	"position": [
-		-50,
+		0,
 		-260
 	],
-	"healthicon": "senpai",
+	"healthicon": "st-duet",
 	"flip_x": true,
 	"healthbar_colors": [
 		255,
-		170,
-		111
+		184,
+		227
 	],
 	"camera_position": [
-		-240,
+		-270,
 		-360
 	],
 	"sing_duration": 4,
 	"scale": 6,
-	"gameover_character": "blantad-senpai-dead",
-	"death_sound": "fnf_loss_sfx-senpai"
+	"gameover_character": "sentank-duet-dead",
+	"death_sound": "fnf_loss_sfx-tankpai"
 }

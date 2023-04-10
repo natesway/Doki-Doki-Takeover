@@ -217,5 +217,7 @@
 		-320
 	],
 	"sing_duration": 4,
-	"scale": 6
+	"scale": 6,
+	"gameover_character": "sentank-duet-dead",
+	"death_sound": "fnf_loss_sfx-tankpai"
 }

@@ -591,9 +591,16 @@
 			"whichrole": 6
 		},
 		{
-			"realName": "Roots",
+			"realName": "Original Roots",
 			"iconName": "MonikaPixel",
 			"description": "Composed by GRYSCL",
+			"twitter": "",
+			"whichrole": 6
+		},
+		{
+			"realName": "Roots [Radiohead Mix]",
+			"iconName": "MonikaPixel",
+			"description": "Composed by Hazy is Dead",
 			"twitter": "",
 			"whichrole": 6
 		},
@@ -933,19 +940,54 @@
 			"whichrole": 11
 		},
 		{
-			"realName": "KitsuneAubrey",
-			"iconName": "KitsuneAubrey",
-			"description": "New Senpai and Tankman Duet sprites",
+			"realName": "DMMaster",
+			"iconName": "DMMaster",
+			"description": "Ported it all and did some extra stuff",
 			"twitter": "https://twitter.com/DMMaster",
 			"whichrole": 11
 		},
 		{
-			"realName": "DMMaster",
-			"iconName": "DMMaster",
-			"description": "Ported it all and also made the new voices",
+			"realName": "KitsuneAubrey",
+			"iconName": "SenpaiTankman",
+			"description": "New Senpai and Tankman Duet sprites",
 			"twitter": "https://twitter.com/AubreeShelly",
-			"whichrole": 11
+			"whichrole": 12
+		},
+		{
+			"realName": "SuperStamps",
+			"iconName": "MonikaPixel",
+			"description": "High School Conflict FLP",
+			"twitter": "https://twitter.com/stampssuper",
+			"whichrole": 12
+		},
+		{
+			"realName": "Shaduwu",
+			"iconName": "SenpaiMonika",
+			"description": "Shinkyoku FLP",
+			"twitter": "https://www.youtube.com/@Shaduwu",
+			"whichrole": 12
+		},
+		{
+			"realName": "Shirdo",
+			"iconName": "MonikaPixelBig",
+			"description": "Your Demise FLP",
+			"twitter": "https://www.youtube.com/@shirdoeng",
+			"whichrole": 12
+		},
+		{
+			"realName": "GRYSCL",
+			"iconName": "MonikaPixel",
+			"description": "Original Roots",
+			"twitter": "https://www.youtube.com/@GRYSCL",
+			"whichrole": 12
+		},
+		{
+			"realName": "Hazy is Dead",
+			"iconName": "MonikaPixel",
+			"description": "Roots Remix",
+			"twitter": "https://twitter.com/hazy_is_dead",
+			"whichrole": 12
 		}
 	],
-	"listoroles": ["Mod Directors", "Artists", "Guest Artists", "Programmers", "Charters", "Musicians", "Music", "Writing / Translation", "Voices", "Cameos", "Additional Credits", "Senpai Edition"]
+	"listoroles": ["Mod Directors", "Artists", "Guest Artists", "Programmers", "Charters", "Musicians", "Music", "Writing / Translation", "Voices", "Cameos", "Additional Credits", "Senpai Edition", "SE Extra Credits"]
 }

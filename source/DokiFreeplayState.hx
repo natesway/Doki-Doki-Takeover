@@ -182,24 +182,27 @@ class DokiFreeplayState extends MusicBeatState
 		}
 
 		menu_character = new FlxSprite(40, 490);
-		if (curPage != 3 || curPage != 6)
+		if (curPage != 3)
 		{
-			menu_character.frames = Paths.getSparrowAtlas('freeplay/chibidorks');
-			menu_character.animation.addByPrefix('idle', 'FreeplayChibiIdle', 24, false);
-			menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiCheer', 24, false);
-		}
-		else
-		{
-			if (curPage == 3) {
-				menu_character.x += 40;
-				menu_character.frames = Paths.getSparrowAtlas('freeplay/moni');
-				menu_character.animation.addByPrefix('idle', 'FreeplayChibiEpiphanyIdle', 24, false);
-				menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiEpiphanyCheer', 24, false);
-			} else {
-				menu_character.frames = Paths.getSparrowAtlas('freeplay/tanpaichibis');
+			if (curPage != 6)
+			{
+				menu_character.frames = Paths.getSparrowAtlas('freeplay/chibidorks');
 				menu_character.animation.addByPrefix('idle', 'FreeplayChibiIdle', 24, false);
 				menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiCheer', 24, false);
 			}
+			else
+			{
+				menu_character.frames = Paths.getSparrowAtlas('freeplay/tankpaichibi');
+				menu_character.animation.addByPrefix('idle', 'FreeplayChibiTankpaiIdle', 24, false);
+				menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiTankpaiCheer', 24, false);
+			}
+		}
+		else
+		{
+			menu_character.x += 40;
+			menu_character.frames = Paths.getSparrowAtlas('freeplay/moni');
+			menu_character.animation.addByPrefix('idle', 'FreeplayChibiEpiphanyIdle', 24, false);
+			menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiEpiphanyCheer', 24, false);
 		}
 		menu_character.antialiasing = SaveData.globalAntialiasing;
 		menu_character.scale.set(1.1, 1.1);
@@ -395,7 +398,7 @@ class DokiFreeplayState extends MusicBeatState
 			if (FlxG.keys.justPressed.FIVE && SaveData.beatLibitina)
 				changePageHotkey(4);
 
-			if (FlxG.keys.justPressed.SIX && SaveData.beatLibitina)
+			if (FlxG.keys.justPressed.SIX && SaveData.beatPrologue)
 				changePageHotkey(5);
 
 			if (controls.LEFT_P && !diffselect)
