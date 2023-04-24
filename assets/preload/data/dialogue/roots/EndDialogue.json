@@ -1,8 +1,18 @@
 {
-	"startingMusic": "",
-	"initStyle": "normal",
+	"startingMusic": "pixelc",
+	"initStyle": "pixel",
 	"dialogue": 
 	[
+		{
+			"isCommand": true,
+			"name": "flash",
+			"duration": 1
+		},
+		{
+			"isCommand": true,
+			"name": "showbackgroundimage",
+			"string": "endingSE1"
+		},
 		{
 			"isCommand": false,
 			"name": "monika",

@@ -193,7 +193,7 @@ class DokiFreeplayState extends MusicBeatState
 			else
 			{
 				menu_character.x += 10;
-				menu_character.y += 10;
+				menu_character.y += 5;
 				menu_character.frames = Paths.getSparrowAtlas('freeplay/tankpaichibi');
 				menu_character.animation.addByPrefix('idle', 'FreeplayChibiTankpaiIdle', 24, false);
 				menu_character.animation.addByPrefix('pop_off', 'FreeplayChibiTankpaiCheer', 24, false);
@@ -487,7 +487,13 @@ class DokiFreeplayState extends MusicBeatState
 		pageFlipped = false;
 		selectedSomethin = true;
 		FlxG.sound.play(Paths.sound('confirmMenu'));
-		menu_character.y -= 31;
+		if (curPage != 5)
+			menu_character.y -= 31;
+		else
+		{
+			menu_character.y += 9;
+			menu_character.y -= 30;
+		}
 		menu_character.animation.play('pop_off');
 		grpSongs.forEach(function(spr:FlxSprite)
 		{

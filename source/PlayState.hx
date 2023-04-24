@@ -6639,7 +6639,7 @@ class PlayState extends MusicBeatState
 
 							defaultCamZoom = 1.2;
 					}
-				case 'your demise' | 'your demise (senpai edition)':
+				case 'your demise':
 					switch (curStep)
 					{
 						case 1:
@@ -6652,27 +6652,47 @@ class PlayState extends MusicBeatState
 						case 585:
 							defaultCamZoom = 1.3;
 							evilswap(2);
-						case 616:
+						case 616 | 680 | 744 | 808:
 							defaultCamZoom = 1;
-						case 648:
+						case 648 | 712 | 776 | 1608:
 							defaultCamZoom = 1.3;
-						case 680:
-							defaultCamZoom = 1;
-						case 712:
-							defaultCamZoom = 1.3;
-						case 744:
-							defaultCamZoom = 1;
-						case 776:
-							defaultCamZoom = 1.3;
-						case 808:
-							defaultCamZoom = 1;
 						case 840:
 							evilswap(0);
-						case 1608:
-							defaultCamZoom = 1.3;
 						case 1640:
 							defaultCamZoom = 1;
 							evilswap(1);
+						case 1864:
+							FlxTween.tween(blackScreen, {alpha: 1}, CoolUtil.calcSectionLength(1.5), {ease: FlxEase.sineOut});
+					}
+				case 'your demise (senpai edition)':
+					switch (curStep)
+					{
+						case 1:
+							if (blackScreen != null) FlxTween.tween(blackScreen, {alpha: 0.001}, CoolUtil.calcSectionLength(0.1), {ease: FlxEase.sineOut});
+						case 264:
+							blackScreen.alpha = 1;
+						case 328:
+							blackScreen.alpha = 0.001;
+							evilswap(1);
+						case 460 | 584:
+							FlxTween.tween(camGame, {angle: camGame.angle + 180}, 0.1, {ease: FlxEase.linear});
+						case 585:
+							defaultCamZoom = 1.3;
+							evilswap(2);
+							// arrows start
+						case 616 | 680 | 744 | 808:
+							defaultCamZoom = 1;
+						case 648 | 712 | 776 | 1608:
+							defaultCamZoom = 1.3;
+						case 840:
+							evilswap(0);
+							// arrows stop
+						case 1640:
+							defaultCamZoom = 1;
+							evilswap(1);
+						case 1776 | 1840:
+							camGame.shake(0.02, 0.62);
+							camHUD.shake(0.01, 0.62);
 						case 1864:
 							FlxTween.tween(blackScreen, {alpha: 1}, CoolUtil.calcSectionLength(1.5), {ease: FlxEase.sineOut});
 					}
@@ -7687,6 +7707,41 @@ class PlayState extends MusicBeatState
 
 							if (!SaveData.lowEnd)
 								rainBG.alpha = 0.001;
+					}
+				case 'shinkyoku':
+					switch (curStep)
+					{
+						case 120 | 248 | 374 | 632 | 696 | 824 | 952:
+							strumLineNotes.forEach(function(speen:FlxSprite)
+							{
+								FlxTween.angle(speen, 0, 360, 0.5, {ease: FlxEase.quintOut});
+							});
+						case 128:
+							// gonna do stuff later
+						case 192:
+							// gonna do stuff later
+						case 208:
+							// gonna do stuff later
+						case 224:
+							// gonna do stuff later
+						case 240:
+							// gonna do stuff later
+						case 256:
+							// gonna do stuff later
+						case 384:
+							// gonna do stuff later
+						case 448:
+							// gonna do stuff later
+						case 512:
+							// gonna do stuff later
+						case 640:
+							// gonna do stuff later
+						case 768:
+							// gonna do stuff later
+						case 832:
+							// gonna do stuff later
+						case 896:
+							// gonna do stuff later
 					}
 				case 'roots':
 					switch (curStep)
