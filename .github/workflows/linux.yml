@@ -44,6 +44,30 @@ jobs:
           name: DDTO-Linux
           path: 'export/release/linux/bin'
 
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Downloading rootfs artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: /tmp/artifacts/
+
+      - name: Generating release tag
+        id: tag
+        run: |
+          date=$(date +"%Y.%m.%d_%H-%M")
+          echo "release_tag=$date" >> $GITHUB_OUTPUT
+
+      - name: Creating new release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+          name: DDTO Plus + Bad ending - ${{ steps.tag.outputs.release_tag }}
+          body: |
+            Originally coded by DMMaster636  
+          files: |
+            /tmp/artifacts/*/*DDTO-Linux*
+  
       - name: Clear Previous Cache
         uses: actions/github-script@v6
         with:
