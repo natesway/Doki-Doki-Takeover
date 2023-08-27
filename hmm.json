@@ -7,7 +7,7 @@
 		},
     		{
      			"name": "hxcpp-debug-server",
-      			"type": "haxelib",
+      			"type": "haxelib"
    		},
 		{
 			"name": "lime",
